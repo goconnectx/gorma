@@ -1,8 +1,8 @@
 package dsl_test
 
 import (
-	"github.com/goconnetx/gorma"
-	gdsl "github.com/goconnetx/gorma/dsl"
+	"github.com/goconnectx/gorma"
+	gdsl "github.com/goconnectx/gorma/dsl"
 
 	. "github.com/goadesign/goa/design"
 	. "github.com/goadesign/goa/dslengine"

@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/goadesign/goa/design"
-	"github.com/goconnetx/gorma"
-	"github.com/goconnetx/gorma/dsl"
+	"github.com/goconnectx/gorma"
+	"github.com/goconnectx/gorma/dsl"
 )
 
 func TestModelContext(t *testing.T) {
