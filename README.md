@@ -2,7 +2,7 @@
 # gorma
 Gorma is a storage generator for [goa](http://goa.design).
 
-[![GoDoc](https://godoc.org/github.com/goadesign/gorma?status.svg)](http://godoc.org/github.com/goadesign/gorma) [![Build Status](https://travis-ci.org/goadesign/gorma.svg?branch=master)](https://travis-ci.org/goadesign/gorma) [![Go Report Card](https://goreportcard.com/badge/github.com/goadesign/gorma)](https://goreportcard.com/report/github.com/goadesign/gorma)
+[![GoDoc](https://godoc.org/github.com/goconnetx/gorma?status.svg)](http://godoc.org/github.com/goconnetx/gorma) [![Build Status](https://travis-ci.org/goadesign/gorma.svg?branch=master)](https://travis-ci.org/goadesign/gorma) [![Go Report Card](https://goreportcard.com/badge/github.com/goconnetx/gorma)](https://goreportcard.com/report/github.com/goconnetx/gorma)
 
 ## Table of Contents
 
@@ -59,12 +59,12 @@ var sg = StorageGroup("MyStorageGroup", func() {
 })
 ```
 
-See the [`dsl` GoDoc](https://godoc.org/github.com/goadesign/gorma/dsl) for all the details and options.
+See the [`dsl` GoDoc](https://godoc.org/github.com/goconnetx/gorma/dsl) for all the details and options.
 
 From the root of your application, issue the `goagen` command as follows:
 
 ```
-$ goagen --design=github.com/gopheracademy/congo/design gen --pkg-path=github.com/goadesign/gorma
+$ goagen --design=github.com/gopheracademy/congo/design gen --pkg-path=github.com/goconnetx/gorma
 ```
 
 Be sure to replace `github.com/gopheracademy/congo/design` with the design package of your `goa` application.

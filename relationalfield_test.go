@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/goadesign/gorma"
-	"github.com/goadesign/gorma/dsl"
+	"github.com/goconnetx/gorma"
+	"github.com/goconnetx/gorma/dsl"
 )
 
 func TestFieldContext(t *testing.T) {
