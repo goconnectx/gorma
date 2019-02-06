@@ -6,7 +6,7 @@ import (
 	"strings"
 	"unicode"
 
-	"bitbucket.org/pkg/inflect"
+	"gitlab.com/SpivEgin/inflect"
 
 	"github.com/goadesign/goa/design"
 	"github.com/goadesign/goa/dslengine"
